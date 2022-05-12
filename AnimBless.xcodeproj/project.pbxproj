@@ -7,18 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2002943F28245B6200CE438E /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2002943E28245B6200CE438E /* Anime.swift */; };
+		2067FA9D282505100094ED28 /* ApiAnimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2067FA9C282505100094ED28 /* ApiAnimeService.swift */; };
+		2067FA9F2825080B0094ED28 /* Manga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2067FA9E2825080B0094ED28 /* Manga.swift */; };
+		2067FAA128250CBE0094ED28 /* TopAnimeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2067FAA028250CBE0094ED28 /* TopAnimeVM.swift */; };
+		2067FAA328251ECF0094ED28 /* AnimeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2067FAA228251ECF0094ED28 /* AnimeListView.swift */; };
+		2067FAA6282575260094ED28 /* AnimeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2067FAA5282575260094ED28 /* AnimeItemView.swift */; };
 		20ECB2FC2823F31C00312661 /* AnimBlessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ECB2FB2823F31C00312661 /* AnimBlessApp.swift */; };
 		20ECB2FE2823F31C00312661 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ECB2FD2823F31C00312661 /* ContentView.swift */; };
 		20ECB3002823F31F00312661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20ECB2FF2823F31F00312661 /* Assets.xcassets */; };
 		20ECB3032823F31F00312661 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20ECB3022823F31F00312661 /* Preview Assets.xcassets */; };
+		20ECB30A2823F43100312661 /* ChartsAnime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ECB3092823F43100312661 /* ChartsAnime.swift */; };
+		20ECB30C2823F44300312661 /* RatingAnime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ECB30B2823F44300312661 /* RatingAnime.swift */; };
+		20ECB3112823F96600312661 /* BottomBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ECB3102823F96600312661 /* BottomBarItem.swift */; };
+		20ECB3132823F9F700312661 /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ECB3122823F9F700312661 /* BottomBar.swift */; };
+		20ECB315282435D700312661 /* AnimeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ECB314282435D700312661 /* AnimeList.swift */; };
+		98996DAFEDADE91F7879D946 /* Pods_AnimBless.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF27D1A144EC2A6CF3BEFAFE /* Pods_AnimBless.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0EAEDEC0E34686D84254DD79 /* Pods-AnimBless.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimBless.debug.xcconfig"; path = "Target Support Files/Pods-AnimBless/Pods-AnimBless.debug.xcconfig"; sourceTree = "<group>"; };
+		2002943E28245B6200CE438E /* Anime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
+		2067FA9C282505100094ED28 /* ApiAnimeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiAnimeService.swift; sourceTree = "<group>"; };
+		2067FA9E2825080B0094ED28 /* Manga.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manga.swift; sourceTree = "<group>"; };
+		2067FAA028250CBE0094ED28 /* TopAnimeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAnimeVM.swift; sourceTree = "<group>"; };
+		2067FAA228251ECF0094ED28 /* AnimeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeListView.swift; sourceTree = "<group>"; };
+		2067FAA5282575260094ED28 /* AnimeItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeItemView.swift; sourceTree = "<group>"; };
 		20ECB2F82823F31C00312661 /* AnimBless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimBless.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20ECB2FB2823F31C00312661 /* AnimBlessApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimBlessApp.swift; sourceTree = "<group>"; };
 		20ECB2FD2823F31C00312661 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		20ECB2FF2823F31F00312661 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20ECB3022823F31F00312661 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20ECB3092823F43100312661 /* ChartsAnime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsAnime.swift; sourceTree = "<group>"; };
+		20ECB30B2823F44300312661 /* RatingAnime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingAnime.swift; sourceTree = "<group>"; };
+		20ECB3102823F96600312661 /* BottomBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBarItem.swift; sourceTree = "<group>"; };
+		20ECB3122823F9F700312661 /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
+		20ECB314282435D700312661 /* AnimeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeList.swift; sourceTree = "<group>"; };
+		CF197AEC23667D254E15C626 /* Pods-AnimBless.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimBless.release.xcconfig"; path = "Target Support Files/Pods-AnimBless/Pods-AnimBless.release.xcconfig"; sourceTree = "<group>"; };
+		FF27D1A144EC2A6CF3BEFAFE /* Pods_AnimBless.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimBless.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +52,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98996DAFEDADE91F7879D946 /* Pods_AnimBless.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2067FAA4282575070094ED28 /* AnimeViews */ = {
+			isa = PBXGroup;
+			children = (
+				2067FAA228251ECF0094ED28 /* AnimeListView.swift */,
+				2067FAA5282575260094ED28 /* AnimeItemView.swift */,
+			);
+			path = AnimeViews;
+			sourceTree = "<group>";
+		};
 		20ECB2EF2823F31C00312661 = {
 			isa = PBXGroup;
 			children = (
 				20ECB2FA2823F31C00312661 /* AnimBless */,
 				20ECB2F92823F31C00312661 /* Products */,
+				8C9104318B428D98CA6FC1BB /* Pods */,
+				B4792AE696372C48EE9C2F33 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +89,10 @@
 		20ECB2FA2823F31C00312661 /* AnimBless */ = {
 			isa = PBXGroup;
 			children = (
+				20ECB31728243AD700312661 /* Data */,
 				20ECB2FB2823F31C00312661 /* AnimBlessApp.swift */,
-				20ECB2FD2823F31C00312661 /* ContentView.swift */,
+				20ECB316282436CB00312661 /* Views */,
+				20ECB30F2823F8DC00312661 /* TabBar */,
 				20ECB2FF2823F31F00312661 /* Assets.xcassets */,
 				20ECB3012823F31F00312661 /* Preview Content */,
 			);
@@ -67,6 +107,71 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		20ECB30F2823F8DC00312661 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				20ECB2FD2823F31C00312661 /* ContentView.swift */,
+				20ECB3102823F96600312661 /* BottomBarItem.swift */,
+				20ECB3122823F9F700312661 /* BottomBar.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		20ECB316282436CB00312661 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2067FAA4282575070094ED28 /* AnimeViews */,
+				20ECB314282435D700312661 /* AnimeList.swift */,
+				20ECB3092823F43100312661 /* ChartsAnime.swift */,
+				20ECB30B2823F44300312661 /* RatingAnime.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		20ECB31728243AD700312661 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				20ECB31B28243B4100312661 /* Service */,
+				20ECB31828243ADC00312661 /* Models */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		20ECB31828243ADC00312661 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2002943E28245B6200CE438E /* Anime.swift */,
+				2067FA9E2825080B0094ED28 /* Manga.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		20ECB31B28243B4100312661 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2067FA9C282505100094ED28 /* ApiAnimeService.swift */,
+				2067FAA028250CBE0094ED28 /* TopAnimeVM.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8C9104318B428D98CA6FC1BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EAEDEC0E34686D84254DD79 /* Pods-AnimBless.debug.xcconfig */,
+				CF197AEC23667D254E15C626 /* Pods-AnimBless.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B4792AE696372C48EE9C2F33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF27D1A144EC2A6CF3BEFAFE /* Pods_AnimBless.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20ECB3062823F31F00312661 /* Build configuration list for PBXNativeTarget "AnimBless" */;
 			buildPhases = (
+				9E118C10E40D037663D058B3 /* [CP] Check Pods Manifest.lock */,
 				20ECB2F42823F31C00312661 /* Sources */,
 				20ECB2F52823F31C00312661 /* Frameworks */,
 				20ECB2F62823F31C00312661 /* Resources */,
+				15470E58192C4B03838A6E64 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +239,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15470E58192C4B03838A6E64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimBless/Pods-AnimBless-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimBless/Pods-AnimBless-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnimBless/Pods-AnimBless-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E118C10E40D037663D058B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimBless-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		20ECB2F42823F31C00312661 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				20ECB2FE2823F31C00312661 /* ContentView.swift in Sources */,
+				20ECB30A2823F43100312661 /* ChartsAnime.swift in Sources */,
+				2067FA9F2825080B0094ED28 /* Manga.swift in Sources */,
+				2067FAA328251ECF0094ED28 /* AnimeListView.swift in Sources */,
+				2067FAA128250CBE0094ED28 /* TopAnimeVM.swift in Sources */,
+				2067FAA6282575260094ED28 /* AnimeItemView.swift in Sources */,
+				20ECB3132823F9F700312661 /* BottomBar.swift in Sources */,
 				20ECB2FC2823F31C00312661 /* AnimBlessApp.swift in Sources */,
+				20ECB3112823F96600312661 /* BottomBarItem.swift in Sources */,
+				20ECB30C2823F44300312661 /* RatingAnime.swift in Sources */,
+				20ECB315282435D700312661 /* AnimeList.swift in Sources */,
+				2002943F28245B6200CE438E /* Anime.swift in Sources */,
+				2067FA9D282505100094ED28 /* ApiAnimeService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +421,7 @@
 		};
 		20ECB3072823F31F00312661 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EAEDEC0E34686D84254DD79 /* Pods-AnimBless.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +451,7 @@
 		};
 		20ECB3082823F31F00312661 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF197AEC23667D254E15C626 /* Pods-AnimBless.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
